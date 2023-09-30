@@ -1,0 +1,127 @@
+body {
+    color: $body_color;
+    
+}
+
+.bg-image {
+    height: 100ch;
+    width: 100vw;
+    obeject-fit:cover;
+    position : absolute;
+    size:cover;
+}
+
+.heading h1 {
+    color: white; 
+    position: absolute;
+    padding-top: 200px;
+}
+
+.heading h3 {
+    color: white; 
+    position: absolute;
+    padding-top: 400px;
+}
+
+/* styles.css */
+.kotak {
+    width: 638px;
+    height: 113px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    top:600px;
+    margin-left: 110px;
+  }
+
+.flex-item {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    position:relative;
+    width: 309px;
+    height: 288px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    margin-top:700px;
+    border-radius: 30px;
+    justify-content: : space-between;
+}
+
+.flex-item p {
+    margin-top: 10px;
+    text-align: center;
+    width:180px;
+    size : 10px;
+    weight: 500;
+    position:relative;
+    left: -30px;
+}
+
+.flex-item img {
+    margin-top:-60px;
+    margin-bottom:40px
+    width: 58px;
+    height: 58px;
+    position:relative;
+    left:30px
+}
+
+.location {
+    position:relative;
+    margin-top:100px;
+    right:40px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+
+.btn-primary {
+    position: relative;
+    left: 980px;
+    width: 173px;
+    height: 46px;
+    border-radius: 20px;
+
+}
+
+
+.flex-item1 {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    position:relative;
+    width: 419px;
+    height: 300px;
+    left: -20px;
+    border-radius: 5px;
+    margin-top:30px;
+    justify-content: : space-between:
+   
+}
+
+.flex-item1 img {
+    position : relative;
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    
+}
+
+.flex-item1 h4,p{
+   position :relative;
+   margin-top: 10px;
+   text-align : left;
+   font : Inter;
+   left: 15px;
+    
+}
+
+.flex-item1 h6{
+    position :relative;
+    text-align : right;
+    right : 10px;
+    color : blue;
+    font : Inter;
+ }
+
+
+

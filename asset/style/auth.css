@@ -1,0 +1,98 @@
+body{
+    font-family: 'Plus Jakarta Sans';
+    
+}
+.bg{
+    background-size: 100%;
+    margin-top: 80px;
+    width: 660px;
+    height: 460px;
+    flex-shrink: 0;
+    background-image: url("../image/auth.jpeg");
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo{
+    width:  30px;
+    position: fixed;
+    margin-top: 14px;
+    margin-left: 18px;
+}
+.bg .cp{
+    position: absolute;
+    font-size: 10px;
+    margin-top: 440px;
+    color: black;
+}
+.col {
+    margin-left: 316px;
+    width: 333px;
+    height: 460px;
+    flex-shrink: 0;
+    border-radius: 20px 0px 0px 20px;
+    background: #F6F6F6;
+}
+.col h3{
+    margin-top: 60px;
+    position: fixed;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.in {
+    margin-top: 100px;
+    margin-left: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px; 
+    position: fixed;
+    width: 250px;
+    height: 21px;
+    flex-shrink: 0;
+    border-color: #D9D9D9;
+    border-radius: 999px;
+    background: #D9D9D9;
+    font-size: 12px;
+}
+.in::placeholder{
+    font-size: 10px;
+}
+.bt{
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 999px;
+    border-color: #F6F6F6;
+    background: #3A5CEE;
+    padding: 6px; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+.col p{
+    font-size: 10px;
+}
+.n1{
+    margin-top: 150px;
+}
+.col a{
+    text-decoration: none;
+    text-align: center;
+}
+.ai{
+    background: #F6F6F6;
+    color: black;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    object-position: center;
+    align-items: center;
+}
+.ls{
+    font-size: 14px;
+}

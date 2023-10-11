@@ -444,7 +444,149 @@ select {
 /* BREAKPOINTS */
 
 
+/* Preview */
 
+.section-details-content {
+	margin-top: 0px;
+	min-height: 100vh;
+  }
+  
+  .section-details-content .breadcrumb {
+	background-color: transparent;
+	padding: 0;
+	margin-bottom: 30px;
+  }
+  
+  .section-details-content .breadcrumb-item.active {
+	font-weight: bold;
+	color: #071C4D;
+  }
+  
+  .section-details-content .card-details {
+	padding: 20px 5px 5px;
+	border-radius: 11px;
+  }
+  
+  .section-details-content .card-details h1 {
+	font-size: 26px;
+  }
+  
+  .section-details-content .card-details h2 {
+	font-size: 20px;
+  }
+  
+  .section-details-content .card-details p {
+	font-size: 15px;
+	color: #b1b1b1;
+  }
+  
+  .section-details-content .card-details .trip-informations th {
+	font-weight: 300;
+	font-size: 18px;
+	color: #071C4D;
+  }
+  
+  .section-details-content .card-details .trip-informations td {
+	font-weight: 300;
+	font-size: 18px;
+	color: #000000;
+  }
+  
+  .section-details-content .card-details .btn-add-now {
+	background-color: #071c4d;
+	color: #fff;
+  }
+  
+  .section-details-content .card-details .btn-add-now:hover {
+	background-color: #213f85;
+	color: #fff;
+  }
+  
+  .section-details-content .card-right {
+	border-radius: 10px;
+  }
+  
+  .section-details-content .features {
+	margin-top: 20px;
+  }
+  
+  .section-details-content .features h3 {
+	font-size: 19px;
+	color: #071C4D;
+	margin-bottom: 0;
+  }
+  
+  .section-details-content .features p {
+	margin-bottom: 0;
+  }
+  
+  .section-details-content .join-container {
+	margin-top: -16px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+  
+  }
+  
+  .section-details-content .btn-chat {
+	background-color: #fff;
+	padding: 60px;
+	color: #061F48;
+	margin-left: 12px;
+	border-radius: 10;
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .section-details-content .btn-chat:hover {
+	background-color: #3A5CEE;
+	color: #fff;
+  }
+  
+  .section-details-content .btn-pesan {
+	background-color: #3A5CEE;
+	padding: 60px;
+	color: #fff;
+	margin-left: 12px;
+	border-radius: 10;
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .section-details-content .btn-pesan:hover {
+	background-color: #fff;
+	color: #061F48;
+  }
+  
+  .section-details-content .gallery .xzoom-container .xzoom  {
+	width: 60%;
+  }
+  
+  .section-details-content .gallery .xzoom-thumbs .xzoom-gallery  {
+	width: 144px;
+  }
+  
+  .section-details-content .card-details ul {
+	margin-top: -20px;
+	color: #061F48;
+  }
+  
+  .section-details-content .card-details .detail-content p {
+	color:#061F48;
+  }
+  
+  .section-details-content .card-details .detail-content .warning  {
+	color:rgba(63, 63, 63, 0.32);
+  }
+  
+  .section-details-content .card {
+	width: 400px;
+	height: 150px;
+  }
+  
+  .section-details-content .trip-informations tr .text-value  {
+	color: #3A5CEE;
+  }
 
 
 

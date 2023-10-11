@@ -102,6 +102,73 @@ body {
   font-size: 12px;
 }
 
+.container-xxl {
+	box-shadow: 0 0 3px #cfcfcf, 0 0 5px #888686;
+   }
+
+   .input-group-append {
+    cursor: pointer;
+  }
+
+  .popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ;
+	border: solid 2px #beb9b9;
+  }
+.popup h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pemberitahuan {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    text-align: justify;
+}
+  .pop-nama {
+    background: #0000ff;
+    color: #fff;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+.row {
+    align-items: center;
+    align-content: center;
+}
+h5{
+    text-align: left;
+}
+  .popup button {
+    width: 50%;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: blue;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px;
+  }
 
 .footer-clean {
   padding:50px 0;

@@ -110,3 +110,39 @@ function isValid(value) {
 
 	return text.length > 0
 }
+
+// pop up pembayaran
+
+const showPopupPesan = document.getElementById('showPopupPesan');
+const showPopupBayar = document.getElementById('showPopupBayar');
+const konfirmasiPopup = document.getElementById('konfirmasiPopup');
+const popupPesan = document.getElementById('popupPesan');
+const closePopupButton = document.getElementById('closePopupButton');
+const konfirmasiButton = document.getElementById('konfirmasiButton');
+const successPopup = document.getElementById('successPopup');
+
+konfirmasiPopup.style.display = 'none';
+popupPesan.style.display = 'none';
+
+function showPopup(element) {
+  element.style.display = 'flex';
+}
+
+showPopupPesan.addEventListener('click', function () {
+  showPopup(popupPesan);
+
+});
+
+showPopupBayar.addEventListener('click', function () {
+  showPopup(konfirmasiPopup);
+  popupPesan.style.display = 'none';
+});
+
+closePopupButton.addEventListener('click', function () {
+  popupPesan.style.display = 'none';
+});
+
+konfirmasiButton.addEventListener('click', () => {
+  konfirmasiPopup.style.display = 'none';
+  showPopup(successPopup);
+});

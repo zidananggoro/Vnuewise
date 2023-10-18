@@ -1,8 +1,11 @@
 
-body {
-    
-    
-    
+html, body {
+  width : 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+  position:absolute;
 }
 
 .bg-image {
@@ -27,6 +30,19 @@ body {
 }
 
 /* styles.css */
+.responsive-box {
+  width: 50%;
+  height: 30%;
+  display: flex;
+  
+}
+
+@media (max-width: 638px) {
+  .responsive-box {
+    width: 50%;
+    height: 20%;
+  }
+}
 
 .place { 
   margin-top: 370px; 
@@ -44,8 +60,29 @@ body {
  
 }
 
+.hero_heading h1 {
+  color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.hero1 {
+  margin-top:100px;
+}
+.hero_heading1 h1 {
+  color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 .featured-card {
- margin-top:200px
+ margin-top:350px
 }
 
 
@@ -83,7 +120,7 @@ body {
 }
 
 .card {
-    margin-top : 100px;
+    margin-top : 120px;
     width: 309px;
     height: 462px;
     border-radius: 30px;
@@ -160,6 +197,7 @@ body {
   text-align: left;
   flex: 1;
   margin-left: 20px;
+  align-items:center;
 }
 
 .popup-content-success h1 {

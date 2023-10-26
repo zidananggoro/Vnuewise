@@ -39,5 +39,6 @@ And the mentor who has guided us is:
 - [Muhammad Saichan](https://github.com/syaichanaz11)
 
 
-![1_page-0001](https://github.com/zidananggoro/Vnuewise/assets/52589583/380f48e1-5186-4b7d-a83b-41af52845ec2)
+![1_page-0001](https://github.com/zidananggoro/Vnuewise/assets/52589583/ccf259a0-4c94-44d7-b18e-f87971d072e9)
+
 

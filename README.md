@@ -42,3 +42,4 @@ And the mentor who has guided us is:
 ![1_page-0001](https://github.com/zidananggoro/Vnuewise/assets/52589583/ccf259a0-4c94-44d7-b18e-f87971d072e9)
 
 
+

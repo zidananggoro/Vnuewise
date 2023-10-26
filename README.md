@@ -38,3 +38,5 @@ And the mentor who has guided us is:
 - [Anggoro Trio]()
 - [Muhammad Saichan](https://github.com/syaichanaz11)
 
+
+![1_page-0001](https://github.com/zidananggoro/Vnuewise/assets/52589583/e249c621-6b9d-4af5-afbe-ddfa0e2baf36)
